@@ -46,11 +46,11 @@ function toggleDarkmode() {
   const logo = document.querySelector(".cashonize-logo");
   if(darkMode){
     icons.forEach(icon => icon.classList.add("dark"));
-    logo.src = "./images/cashonize-logo-dark.png";
+    logo.src = "./images/pin.png";
   } 
   else {
     icons.forEach(icon => icon.classList.remove("dark"));
-    logo.src = "./images/cashonize-logo.png";
+    logo.src = "./images/pin.png";
   }
   localStorage.setItem("darkMode", `${darkMode}`);
   document.querySelector('#darkmode').checked = darkMode;
