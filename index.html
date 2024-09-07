@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <title>Cashonize | A Bitcoin Cash Wallet</title>
+  <title>Jijeeb| A Jilaag Wallet</title>
   <link rel="icon" type="image/png" href="/images/cashonize-icon.png">
   <meta name="thumbnail" content="/images/cashonize-icon.png" />
-  <meta name="description" content="Cashonize - a Bitcoin Cash Wallet. Cashonize supports CashTokens, WalletConnect and CashConnect.">
+  <meta name="description" content="Jijeeb| A Jilaag Wallet.">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/chota@0.8.0/dist/chota.min.css">
@@ -24,9 +24,7 @@
 </head>
 
 <body>
-  <div id="banner">
-    The official url for Cashonize going forward is <a href="https://cashonize.com/">Cashonize.com</a>, please migrate!
-  </div>
+
   <header>
     <img class="cashonize-logo" src="./images/cashonize-logo.png" alt="Cashonize: A Bitcoin Cash Wallet">
     <div>
@@ -48,7 +46,7 @@
   <main>
     <div class="container">
       <div id="newWalletView" class="hide">
-        <span style="margin-left: 15px;">NEW ➤ Cashonize is now also available as a 
+        <span style="margin-left: 15px;">NEW ➤ JILEEG is now also available as a 
           <a href="https://github.com/cashonize/cashonize-quasar/releases" target="_blank">Desktop application</a>
         </span>
         <fieldset style="margin-top: 15px;">
@@ -82,7 +80,7 @@
             <span id="balanceUnit" class="text-primary unit"></span>
           </div>
           <div>Wallet token balance: <span id="tokenBalance" class="text-primary"></span></div>
-          <div style="word-break: break-all;">BCH address: <span class="depositAddr" id="depositAddr"></span>
+          <div style="word-break: break-all;">JIL address: <span class="depositAddr" id="depositAddr"></span>
             <button type="button" style="background: none; padding: 0;" onclick="copyTextContent('depositAddr')">
               <img class="copyIcon icon" src="/images/copy.svg">
             </button>
@@ -124,13 +122,13 @@
           <div class="is-center"><div id="switchAddress" class="icon" onclick="switchAddressType()">⇄</div></div>
         </fieldset>
         <fieldset style="margin-top: 15px">
-          <legend>Send BCH to</legend>
+          <legend>Send JIL to</legend>
           <p class="inputGroup">
             <span class="addressInput"><input id="sendAddr" placeholder="address"></span>
             <span class="sendAmountGroup">
               <span style="width: 100%;" class="input-icon input-icon-right">
                 <input id="sendAmount" type="text" placeholder="amount">
-                <i id="sendUnit" style="color: black;">BCH</i>
+                <i id="sendUnit" style="color: black;">JIL</i>
               </span>
               <button onclick="maxBch(event)" style="color: black;">max</button>
             </span>
@@ -196,11 +194,7 @@
                 <span class="tokenButton hide" id="mintButton">
                   <img id="mintIcon" class="icon" src="/images/hammer.svg"> mint NFTs 
                 </span>
-                <span class="tokenButton hide" style="white-space: nowrap;" id="burnButton">
-                  <img id="burnIcon" class="icon" src="/images/fire.svg">
-                  <span class="hidemobile">burn NFT</span>
-                  <span class="showmobile">burn</span>
-                </span>
+               
                 <span class="tokenButton hide" style="white-space: nowrap;" id="authButton">
                   <img id="authIcon" class="icon" src="/images/shield.svg">
                   <span class="hidemobile">auth transfer</span>
